@@ -1,0 +1,36 @@
+.navbar-header{
+    margin-left:5px;
+    width:100%;
+  }
+
+.button-player {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.action-modal-content {
+  background-color: white;
+  border:solid;
+  border-width: 1px;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+.song-list-item-rotation {
+  background:lightgreen;
+}
+
+.song-list-item-not-rotation {
+  background: lightsalmon;
+}
+
+.song-list-item-trash {
+  background: red;
+}
+.song-list-item-rotation:hover,
+.song-list-item-not-rotation:hover,
+.song-list-item-trash:hover
+{
+  background: black;
+  color: whitesmoke
+}
